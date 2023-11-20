@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+header, main, footer, body{
+    width: 600px;   
+    margin: 0 auto;
+}
+footer {
+    border: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around ;
+    text-align: center;
+
+}
+body {
+    border: none;
+    background: linear-gradient(123deg, #2E99B0 0%, #2E99B0 40%, #FCD77F calc(40% + 1px), #FCD77F 60%, #FF2E4C calc(60% + 1px), #FF2E4C 75%, #1E1548 calc(75% + 1px), #1E1548 100%); 
+    font-family: 'Lato', sans-serif;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+img, video, iframe {
+    max-width: 100%;
+    height: auto;
+}
+.titulo {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 50;
+    font-weight: 700;
+}
+header {
+    padding: 1rem;
+    border: none;
+    display: flex;
+    flex-direction: column ;
+    align-items: center;
+}
+.seccion1 {
+    padding: 1rem;
+}
+.seccion1__lista {
+
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.seccion1__enlace {
+padding: 1rem;
+background-color:black;
+text-decoration: none;
+display: block;
+text-align: center;
+border-radius: 0.5%;
+}
+.seccion2 {
+    padding: 1rem;
+}
+.seccion3 {
+    padding: 1rem;
+    justify-content: center;
+    gap: 1rem;
+    }
+.seccion3__lista
+{
+    list-style-type: none;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+}
+.seccion3__item
+{
+    width: 250%;
+    height: 250%;
+    border: 2px #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.seccion3__enlace
+{text-transform: uppercase;
+    text-decoration: none;
+}
+.seccion4 
+{padding: 1rem;
+    text-align: center;
+    
+}
+.seccion4__banner
+{
+    display: block;
+    width: 100%;
+    
+}
+.whats
+{ padding: 1rem;
+    text-decoration: none;
+}
+.seccion5
+{
+    padding: 1rem;
+}
+ul {
+    padding: 0; 
+}
+@media (min-width: 900px) {
+    body {
+        background-color: red;
+    }
+
+}
